@@ -139,7 +139,67 @@ background: linear-gradient(90deg, rgba(179, 74, 21, 1) 0%, rgba(181, 31, 31, 1)
     border: 0;
     border-top: 2px dashed #645656;
 }
+.btn-tema {
+    margin-left: auto;
+    background: rgba(255,255,255,0.15);
+    color: #ffffff;
+    border: 1px solid rgba(255,255,255,0.3);
+    padding: 8px 16px;
+    font-size: 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    backdrop-filter: blur(4px);
+    transition: all 0.3s ease;
+}
+.btn-tema:hover {
+    background: rgba(255,255,255,0.30);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+    transform: translateY(-2px);
+}
+
 body.darkTheme{
     background-color: #2a2a30;
     color: #fdfcfd
+}
+body.darkTheme .topo{
+    background-color: rgb(64, 32, 94);
+    color:rgb(173, 185, 241);
+    background: linear-gradient(90deg, rgb(50, 69, 237) 0%, rgb(70, 29, 253) 50%, rgb(23, 82, 131) 100%);
+} 
+body.darkTheme .navegacao {
+    background: #4f11e0;
+    background: linear-gradient(90deg, rgb(27, 38, 134) 0%, rgb(32, 15, 105) 50%, rgb(13, 48, 77) 100%);
+}
+body.darkTheme .noticia-principal{
+    background-color: rgb(77, 51, 182);
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border-left: 10px solid #160079;
+    box-shadow: 0 7px 5px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+}
+body.darkTheme .secao-materias{
+    background-color: #2a2a30;
+    margin: 50px auto;
+}
+body.darkTheme .card-noticia{
+    background-color: rgb(114, 105, 194);
+    box-shadow: 0 7px 5px rgba(0,0,0,0.5);
+}
+body.darkTheme .materia-completa{
+    background-color: #3032c9;
+    box-shadow: 0 7px 5px rgba(0,0,0,0.5)
+}
+body.darkTheme .rodape{
+    background-color:#1a1a1d;
+}
+body.darkTheme .voltar-topo{
+    color:rgb(221, 221, 230);
+}
+body.darkTheme .navegacao a:hover{
+    background-color: rgb(91, 102, 165);
 }
