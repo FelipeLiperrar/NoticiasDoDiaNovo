@@ -130,7 +130,7 @@ background: linear-gradient(90deg, rgba(179, 74, 21, 1) 0%, rgba(181, 31, 31, 1)
 .voltar-topo{
     display: inline-block;
     margin-top: 15px;
-    color:rgb(21, 7, 226);
+    color:rgb(252, 252, 252);
     font-weight: bold;
     text-decoration: none;
 }
@@ -261,6 +261,15 @@ background: linear-gradient(90deg, rgba(179, 74, 21, 1) 0%, rgba(181, 31, 31, 1)
 .btn-like:hover .icone-coracao{
     transform: scale(1.03);
 }
+.btn-like.curtido{
+    border-color: rgb(196, 64, 64);
+    background-color: #fff;
+    color: rgb(196, 64, 64);
+}
+.btn-like.curtido .contador-likes{
+    color: rgb(196, 64, 64);
+}
+
 body.darkTheme{
     background-color: #2a2a30;
     color: #fdfcfd
